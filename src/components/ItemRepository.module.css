@@ -1,0 +1,58 @@
+.repositoryContainer {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.repositoryContainer h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.repositoryContainer p {
+  color: #FAFAFA60;
+}
+
+.repositoryContainer hr {
+  color: #FAFAFA60;
+  margin: 1.25rem 0;
+}
+
+.repositoryContainer button {
+  background-color: #F9F5F6;
+  border: 2px solid #555;
+  border-radius: 5px;
+
+  width: 8.75rem;
+  height: 2rem;
+  margin-top: 1rem;
+  
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.repositoryContainer button a {
+  color: #555;
+}
+
+.repositoryContainer button:hover {
+  background-color: transparent;
+
+}
+
+.repositoryContainer span {
+  font-weight: 700;
+  margin: 0 1rem;
+}
+
+.repositoryContainer span + button {
+  color: #B73E3E;
+  transition: background .3s;
+  transition: border .3;
+}
+
+.repositoryContainer span + button:hover {
+  background-color: #FF8787;
+  color: #B73E3E;
+
+  border: 2px solid currentColor;
+}
